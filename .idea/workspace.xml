@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14010983-2df9-4505-8902-4cb9fbe2de5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PS2/PS2.P1.js" afterDir="false" />
-    </list>
+    <list default="true" id="14010983-2df9-4505-8902-4cb9fbe2de5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PS1/PS1.P1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -25,11 +23,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PS2/PS2.P1.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -45,7 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="PS1" />
       </map>
     </option>
   </component>
@@ -78,11 +71,6 @@
             <path>
               <item name="CS591" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS591" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS591" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS591" type="462c0819:PsiDirectoryNode" />
-              <item name="PS2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,10 +149,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8483000" />
+    <option name="totallyTimeSpent" value="8505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16842847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
