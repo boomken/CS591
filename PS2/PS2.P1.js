@@ -7,11 +7,13 @@ function* fib(){
 }
 
 myFib = fib()
+const helper = (x, f) => f(x);
+
 function* fibs (){
     while(true){
-        let even_num = myFib.next();
-        if (even_num.value%2 == 0 || even_num.value == 0){
-            yield even_num.value
+        let even_num = myFib.next().value;
+        if (helper(even_num, x => (x%2)===0)){
+            yield even_num
         }
     }
 }
