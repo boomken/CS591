@@ -1,0 +1,29 @@
+get:http://localhost:3000/ps3
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+    <body>
+        <p>Hey now PS3!</p>
+    </body>
+</html>
+
+post:http://localhost:3000/ps3
+
+Key    | Value
+string | testlength
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+    <body>
+        <p>testlength</p>
+        <p>10</p>
+    </body>
+</html>
