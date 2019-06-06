@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const rp = require('request-promise');
-const coinmarket = require('../_config/config.js')
+const coinmarket = require('../_config.js')
 
 const getPrices = new Promise((resolve, reject) => {
     const requestOptions = {
@@ -40,3 +40,4 @@ router.get('/', function (req, res, next) {
 })
 
 module.exports = router
+

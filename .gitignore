@@ -61,4 +61,4 @@ typings/
 .next
 .idea
 *.xml
-PS4/_config/config.js
+PS4/_config.js
