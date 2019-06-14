@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {PRICE} from './PS5/CryptoPrice';
-import {PRICES} from './PS5/CryptoPrice_MOCK';
+import {PRICE} from './CryptoPrice';
+import {PRICES} from './CryptoPrice_MOCK';
 
 @Component({
   selector: 'app-root',

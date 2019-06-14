@@ -1,5 +1,4 @@
-// @ts-ignore
-import {PRICE} from './PS5/CryptoPrice_MOCK';
+import {PRICE} from './CryptoPrice';
 
 export const PRICES: PRICE[] = [
   {
