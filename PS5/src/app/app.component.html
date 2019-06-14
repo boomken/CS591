@@ -7,9 +7,9 @@
 
 <div>
   <ul>
-    price(rank)
+    price(rank, max supply)
     <li *ngFor="let price of prices">
-      <label (click)="selectCrypto(price)">{{price.name}} ({{price.rank}})</label>
+      <label (click)="selectCrypto(price)">{{price.name}} ({{price.rank}}, {{price.maxSupply}})</label>
     </li>
   </ul>
 </div>
@@ -18,6 +18,7 @@
   <h3>details for {{selectedCrypto.name}}</h3>
   <input type = "text" [(ngModel)]="selectedCrypto.name">
   <input type = "text" [(ngModel)]="selectedCrypto.rank">
+  <input type = "text" [(ngModel)]="selectedCrypto.maxSupply">
 </div>
 
 
