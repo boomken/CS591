@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
+import { env } from '../../_config';
 
 @Component({
   selector: 'app-service',
@@ -10,9 +11,8 @@ export class ServiceComponent implements OnInit {
 users: any;
 httpClient: any;
 prices: any;
-value: any;
 constructor(private http: HttpClient) {
-    http.get('http://localhost:3000/ps4')
+    http.get(env.apiUrl)
       .subscribe(
         data => this.prices = data,
         err => console.log(`Error: ${err}`),

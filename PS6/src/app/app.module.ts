@@ -4,7 +4,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ServiceComponent } from './service/service.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +11,7 @@ import { ServiceComponent } from './service/service.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
