@@ -8,9 +8,9 @@
 
 <div>
   <p>What cryptocurrency you want to know?</p>
-  <label>[Choose from EOS, BTC, BCH, ETH] </label>
+  <label>[Enter from (EOS, BTC, BCH, ETH)] </label>
   <input type="String" [(ngModel)]="names" required>
-  <button type = "button" id = "myBtn" (click) ="selectCrypto()">Select</button>
+  <button type = "button" id = "myBtn" (click) ="selectCrypto()">Enter</button>
 </div>
 <p></p>
 <div *ngFor="let key of prices">
