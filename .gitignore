@@ -62,3 +62,4 @@ typings/
 .idea
 *.xml
 PS4/_config.js
+PS6/src/_config.ts
