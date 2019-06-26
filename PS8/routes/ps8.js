@@ -55,8 +55,9 @@ router.get('/', async (req, res) => {
                     const query = {};
                     // console.log(element)
                     // second api, get the latest feed by coin, since there are too many coins, my labtop will crash
-                    // we can read through element array, get its name iterately
+                    // we can iterate through element array, get its name
                     // I took litecoin as an example
+
                     // News.getTopFeedByCoin('litecoin')
                     //     .then(function (feed) { console.log(feed) })
                     //     .catch(function (error) { console.log(error) });
@@ -71,6 +72,7 @@ router.get('/', async (req, res) => {
                         _category: 'cryptocurrency'
                     }
                     query['name'] = reducedElement['name'];
+                    // professor said this is OK ( Problem 2 )
                     bulk.find(query).upsert().update({
                         '$set' : {
                             name: reducedElement.name,
@@ -123,7 +125,8 @@ router.post('/category', function(req, res) {
         cmc_rank: 0,
         cmc_id: 0
     })
-
+    //insert data
+    //professor said this is OK
     newCategory.save(function(err, results) {
         if (err) res.send({error: err});
         else res.send(results);
